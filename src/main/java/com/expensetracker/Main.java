@@ -1,7 +1,8 @@
 package com.expensetracker;
 
-import com.expensetracker.util.DatabaseConnection;
 import java.sql.Connection;
+
+import com.expensetracker.util.DatabaseConnection;
 
 public class Main {
     public static void main(String[] args) {

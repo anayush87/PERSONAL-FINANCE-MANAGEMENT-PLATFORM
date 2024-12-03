@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Online Finance Management</title>
+    <link rel="stylesheet" href="style04.css">
+</head>
+<body>
+    <header>
+        <h1>Profile</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="settings.html">Settings</a>
+            <a href="#" onclick="logout()">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Manage Your Profile</h2>
+        
+        <!-- Change Email Section -->
+        <section class="change-email">
+            <h3>Change Email Address</h3>
+            <form id="email-form">
+                <label for="new-email">New Email Address:</label>
+                <input type="email" id="new-email" placeholder="Enter your new email" required>
+                <button type="submit">Save Email</button>
+            </form>
+        </section>
+
+        <!-- Change Password Section -->
+        <section class="change-password">
+            <h3>Change Password</h3>
+            <form id="password-form">
+                <label for="current-password">Current Password:</label>
+                <input type="password" id="current-password" placeholder="Enter your current password" required>
+                <br>
+                <label for="new-password">New Password:</label>
+                <input type="password" id="new-password" placeholder="Enter your new password" required>
+                <br>
+                <label for="confirm-password">Confirm New Password:</label>
+                <input type="password" id="confirm-password" placeholder="Confirm new password" required>
+                <button type="submit">Save Password</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
